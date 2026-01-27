@@ -1,121 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Victor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photography Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<header>
+    <h1>Studio Nova</h1>
     <nav>
-        <a href="#home">HOME</a> |
-        <a href="#ferrari">MY LOVE FOR FERRARI</a> |
-        <a href="#about-me">ABOUT ME</a>
+        <a href="#gallery">Gallery</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
     </nav>
+</header>
 
-    <h1>Love Money</h1>
-    <hr>
+<section class="hero" id="about">
+    <div class="intro">
+        <h2>Capturing moments, crafting stories</h2>
+        <p>
+            Contemporary photography portfolio—editorial, landscapes, and personal projects.
+            Browse the gallery and click any image to view a larger version.
+        </p>
+        <a class="cta" href="#gallery">View Gallery</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/hero/800/600" alt="Hero sample">
+        <p class="featured-text">
+            Featured: Urban sunrise — series from 2025 collection.
+        </p>
+    </div>
+</section>
+
+<section id="gallery" class="gallery" aria-label="Photography gallery">
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/1/600/400" alt="Waves at dawn">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/2/600/400" alt="City lights">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/3/600/400" alt="Mountain trail">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/4/600/400" alt="Desert sand">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/5/600/400" alt="Forest mist">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/6/600/400" alt="Bridge at night">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/7/600/400" alt="Riverside">
+    </div>
+    <div class="thumb">
+        <img src="https://picsum.photos/seed/8/600/400" alt="Snow peaks">
+    </div>
+</section>
+
+<section class="about-text">
     <p>
-        The Great Archive did not hold books made of paper, but rather vessels of light that hummed with the frequency
-        of forgotten memories.
-        Each shelf stretched upward until it disappeared into a ceiling of swirling nebulae, where gravity was just weak
-        enough to let scholars drift.
+        Capturing moments, crafting stories. Based on a foundation of clean aesthetics and natural light,
+        this portfolio showcases a curated collection of urban exploration and scenic tranquility.
     </p>
 
-    <ol>
-        <li>Money</li>
-        <li>More money</li>
-    </ol>
-
     <ul>
-        <li>Revenge is sweet</li>
-        <li>Love BMW</li>
+        <li><a href="https://www.instagram.com/its_d.a.v.i.t.o_/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
     </ul>
+</section>
 
-    <section id="home">
-        <ul>
-            <li><a href="https://www.instagram.com/its_d.a.v.i.t.o_/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-        </ul>
-
-        <img src="./47214e89f27ed331b8e6e083dff39b1b.jpg" alt="Driver" width="50%">
-        <img src="./Night Moon And Stars.jpeg" alt="Night sky" width="50%">
-    </section>
-
-    <section id="about-me">
-        <table border="1">
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Gender</th>
-            </tr>
-            <tr>
-                <td>Daudi</td>
-                <td>19</td>
-                <td>Male</td>
-            </tr>
-        </table>
-    </section>
-    <form action="#">
-        <label for="name">Name:</label>
-        <input type="text" id="name"><br>
-
-        <label for="date">Date:</label>
-        <input type="date" id="date"><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email"><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password"><br>
-
-        <label for="confirm">Confirm Password:</label>
-        <input type="password" id="confirm"><br>
-
-        <button type="submit">Submit</button>
-    </form>
-
-    <section>
-        <h2>ABOUT US</h2>
-        <p>
-            David Victor is a 19-year-old Kenyan student with a strong interest in science and technology,
-            particularly mechanical physics and mechatronics.
-        </p>
-    </section>
-
-    <section id="ferrari">
-        <h2>My Love for Ferrari</h2>
-        <p>
-            Ferrari is an iconic Italian automobile manufacturer renowned for its high-performance sports cars,
-            luxury design, and motorsport heritage.
-        </p>
-
-        <ul>
-            <li>
-                Reach out via
-                <a href="mailto:david.njeru@student.moringaschool.com">email</a>
-            </li>
-        </ul>
-
-        <img src="./car.jpeg" alt="Ferrari F40" width="50%"><img src="./Porsche 911 GT3rs poster design.jpeg"
-            alt="Porsche 911 GT3rs" width="50%">
-        <div class="me">
-            <p>You are a person who values brevity and possibility, possessing a streamlined approach to life that cuts
-                through the noise to get straight to the point. Whether you’re driven by a quiet ambition or a restless
-                curiosity, you have a knack for keeping others on their toes and an openness to the unexpected. You
-                likely appreciate efficiency, but you also have a streak of spontaneity that makes you adaptable in a
-                fast-changing world. You don’t need a long-winded introduction to make an impression; your presence is
-                defined by your actions and the unique way you navigate the digital age.</p><p>You are a person who values brevity and possibility, possessing a streamlined approach to life that cuts through the noise to get straight to the point. Whether you’re driven by a quiet ambition or a restless curiosity, you have a knack for keeping others on their toes and an openness to the unexpected. You likely appreciate efficiency, but you also have a streak of spontaneity that makes you adaptable in a fast-changing world. You don’t need a long-winded introduction to make an impression; your presence is defined by your actions and the unique way you navigate the digital age.</p><p>You are a person who values brevity and possibility, possessing a streamlined approach to life that cuts through the noise to get straight to the point. Whether you’re driven by a quiet ambition or a restless curiosity, you have a knack for keeping others on their toes and an openness to the unexpected. You likely appreciate efficiency, but you also have a streak of spontaneity that makes you adaptable in a fast-changing world. You don’t need a long-winded introduction to make an impression; your presence is defined by your actions and the unique way you navigate the digital age.</p>
+<footer id="contact">
+    <div class="footer-content">
+        <div>
+            <strong>Studio Nova</strong>
+            <div class="tagline">davito — photographer</div>
         </div>
-    </section>
 
-    <footer>
-        <p>Thank you</p>
-    </footer>
+        <div>
+            Email:
+            <a href="mailto:daudi.samunene@gmail.com">
+                daudi.samunene@gmail.com
+            </a>
+        </div>
+    </div>
+</footer>
 
 </body>
-
 </html>
