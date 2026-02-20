@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-#(photography website)
-####date, 2026/1/28
 
-####BY *David Victor*
+####date, 2026/2/20
 
 ##Descripton
 a website on photography from studio nova
 
-##Tech used
-css 
-html
-##Instructions for cloning 
-git clone https://github.com/username/photo-web.git
-=======
+
 # Studio Nova Photography Portfolio
 
 A simple and responsive photography portfolio website built with HTML and CSS.
@@ -34,5 +26,6 @@ A simple and responsive photography portfolio website built with HTML and CSS.
 https://github.com/davidnjeru-max/photo-web.git
 ##Author
 Davito-Photographer
+
 
 >>>>>>> 69d73e1 (Update gallery and CSS)
